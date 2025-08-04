@@ -2,7 +2,7 @@ from openai import OpenAI
 
 # Initialize Groq-compatible OpenAI client
 client = OpenAI(
-    api_key="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",  # Replace with your actual Groq API key
+    api_key="",  # Replace with your Groq API key
     base_url="https://api.groq.com/openai/v1"
 )
 
@@ -31,3 +31,4 @@ while True:
     )
 
     print("Bot:", response.choices[0].message.content)
+
